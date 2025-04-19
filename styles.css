@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+}
+nav{
+    /* display: flex;
+    justify-content: center; */
+    background-color: rgb(111, 179, 156);
+    
+}
+header{
+    /* display: flex;
+    justify-content: center; */
+    font-style: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+#about{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+h1{
+    font-weight: bold;
+}
+.tagline{
+    /* display: flex;
+    justify-content: center; */
+    font-style: none;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.img {
+    display: flex;
+    justify-content: right;
+    margin-left: 30px;
+}
+.img img {
+    border-color:1px solid black;
+    border-radius: 50%;
+}
+h3{
+    margin: 10px;
+}
+.about{
+    margin:10px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.Para{
+    padding-left: 20px;
+}
+.projects {
+    display:flex;
+    flex-direction: row;
+}
+#contactinfo{
+    margin-left: 50%;
+}
+#contact {
+    display:flex;
+    justify-content: space-evenly;
+}
+#email{
+    text-decoration: none;
+    color: darkblue;
+}
+#email:hover {
+    color: red;
+    text-decoration: underline;
+}
+#mobileNumber {
+    font-style: none;
+    text-decoration: none;
+    color: darkblue;
+}
+#mobileNumber:hover{
+    font-style: bold;
+    color: red;
+}
+#linkedin-link {
+    text-decoration: none;
+    color: darkblue;
+ }
+ #linkedin-link:hover {
+    text-decoration: underline;
+    color:red;
+ }
