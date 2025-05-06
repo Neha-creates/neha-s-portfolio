@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
         <link rel="stylesheet" href="styles.css"/>
-       </head>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
 </html>
 <body>
-    <nav>
-    <header>
-        <h1>Neha Sharma</h1>
-        <p class="tagline">Full Stack Web Developer</p>
-    </header>
-    </nav>
-    <div id="about">
-        <span class="img">
-            <img width="120px" src="pass.jpg" alt="passport picture" />
-        </span>
-        <h3>Hi, I am Neha Sharma</h3>
-        <p class="about">I study at Masai, I am 2024 B.tech graduate from a non-tech background. I'm excited to use my fresh tech skills to create impactful solutions and am open to collaborating with others in this incredible industry. Let’s connect and build something amazing together!</p>
-    </div>
-    <div class="skills" id="skillSection">
-        <ul>Skill Section
-            <li>JavaScript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>React</li>
-        </ul>
-    </div>
-    <div class="projects">
-        <p class="Para">Projects I have done</p>
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio.</a>
         <ul>
-            <li>Project 1</li>
-            <p class="description">...</p>
-            <a></a>
-            <li>Project 2</li>
-            <p class="description">...</p>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
-
+    </nav>
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
     </div>
-    
-        <button id="contactinfo">Show Contact Info</button>
-    <footer id="contact" style="opacity:0;">
-        <label>Email: <br><span id="email">n5h1sh1rm12001@gmail.com</span></label><br>
-        <label>Phone: <br><span id="mobileNumber">9713123413</span></label><br>
-        <label>LinkedIn: <br><a id="linkedin-link" href="www.linkedin.com/in/neha-sharma-550781200">www.linkedin.com/in/neha-sharma-550781200</a></label>
-    </footer>
+    <section class="home">
+        <div class="home-info">
+            <h1>Neha Sharma</h1>
+            <h2>I'm a Full Stack Developer</h2>
+            <p>Highly skilled Full Stack Developer with expertise in HTML, CSS, JavaScript, and React. Successfully developed a comprehensive loan application system with a user-friendly interface. Possesses strong communication, consistency, and discipline to deliver exceptional results in dynamic development environments.</p>
+        </div>
+        <div class="btn-sci">
+            <a href="#" class="btn">Download CV</a>
+            <div class="sci">
+                <a href="https://github.com/Neha-creates"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/n5h1-sh1rm1/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://leetcode.com/u/neha_in_leetcode/"><i class='bx bx-code'></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="passPic.png" alt="passport-pic">
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
-<script src="script.js"></script>
